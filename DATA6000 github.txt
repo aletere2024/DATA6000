@@ -1,0 +1,53 @@
+# DATA6000 Argentina Gas Industry Project
+
+This repository contains the analytics model and supporting files for my DATA6000 Assessment 3 project.
+
+## Project title
+
+Can Argentina become a sustainable gas exporter?  
+A forecasting and scenario analysis of production, demand and infrastructure constraints.
+
+## Project objective
+
+The project evaluates whether Argentina can meet domestic gas demand and support sustainable gas exports under current and planned infrastructure constraints.
+
+## Methods used
+
+- Descriptive analytics
+- SARIMA forecasting
+- LSTM robustness check
+- Scenario analysis
+
+SARIMA is used as the main forecasting model. LSTM is used as a robustness check to test whether the scenario conclusion remains stable under a machine learning approach.
+
+## Scenario design
+
+Two production pathways are tested:
+
+1. Conservative Rystad scenario: approximately 6 Bcf/d by 2030
+2. High-development YPF scenario: approximately 8 Bcf/d by 2030
+
+Total demand is calculated as:
+
+Baseline demand + additional LNG demand layer
+
+Baseline demand includes domestic demand and pipeline exports.
+
+## Main finding
+
+Argentina can become a sustainable gas exporter, but not by relying on reserves alone. Export feasibility depends on coordinated production growth, transport infrastructure, LNG development and stable investment conditions.
+
+## Files
+
+- Python/Colab model files: forecasting and scenario analysis and DATA6000
+- Final report: DATA6000 Assessment 3 project report
+- Dataset: cleaned gas data used for modelling
+
+## Data sources
+
+The project uses public data and industry sources, including ENARGAS, Secretaría de Energía, EIA, IEA, Rystad Energy and YPF.
+
+## Author
+
+Alejandro Tomas Tereso  
+DATA6000 Capstone: Industry Case Studies
